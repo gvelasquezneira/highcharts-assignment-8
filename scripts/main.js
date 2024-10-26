@@ -45,7 +45,6 @@ Highcharts.chart('container', {
     }
 });
 
-// Fetch map data and create the map chart
 (async () => {
     const topology = await fetch('https://code.highcharts.com/mapdata/custom/world.topo.json')
         .then(response => response.json());
